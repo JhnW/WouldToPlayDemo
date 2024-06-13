@@ -28,6 +28,6 @@ FROM scratch
 COPY --from=build /runtime/ /
 COPY --from=build /app/bin/server /app/bin/
 
-
+EXPOSE 8080
 # Start server.
 CMD ["/app/bin/server"]
