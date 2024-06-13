@@ -1,0 +1,3 @@
+dependency_overrides:
+  would_to_play_contracts:
+    path: .dart_frog_path_dependencies/would_to_play_contracts
