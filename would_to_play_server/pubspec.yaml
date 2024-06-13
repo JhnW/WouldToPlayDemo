@@ -1,0 +1,18 @@
+name: would_to_play_server
+description: An new Dart Frog application
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  dart_frog: ^1.0.0
+  uuid: ^4.4.0
+  would_to_play_contracts:
+    path: ../would_to_play_contracts
+
+dev_dependencies:
+  mocktail: ^1.0.0
+  test: ^1.19.2
+  very_good_analysis: ^5.1.0
